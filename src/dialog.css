@@ -1,0 +1,34 @@
+.Dialog {
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display:flex;
+    justify-content: center;
+  }
+  
+  .Dialog-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  
+  .Dialog-header {
+      width:600px;
+      height: 400px;
+      margin-top:200px;
+      background-color: #000000;
+      border:1px solid #000000;
+      border-radius: 20px;
+      padding-bottom:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
